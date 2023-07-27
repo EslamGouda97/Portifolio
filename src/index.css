@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(0 114 245) transparent;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgb(0 114 245);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(2, 46, 96);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: rgb(2, 46, 96);
+}
+.md\:justify-between {
+  justify-content: space-between;
+  background-color: #161616;
+  z-index: 10000000;
+}
